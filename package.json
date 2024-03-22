@@ -1,0 +1,39 @@
+{
+  "name": "minimanon",
+  "version": "1.0.0",
+  "description": "JavaScript Implementation of the IPLD format - Ethereum Transaction",
+  "main": "src/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "async": "^2.1.4",
+    "cids": "^0.3.4",
+    "ethereumjs-tx": "^1.1.2",
+    "multihashes": "^0.3.0"
+  },
+  "devDependencies": {
+    "aegir": "^9.1.2",
+    "chai": "^3.5.0",
+    "ipfs-block": "^0.5.3"
+  },
+  "scripts": {
+    "test": "aegir-test",
+    "test:browser": "aegir-test --env browser",
+    "test:node": "aegir-test --env node",
+    "lint": "aegir-lint",
+    "release": "aegir-release",
+    "release-minor": "aegir-release --type minor",
+    "release-major": "aegir-release --type major",
+    "build": "aegir-build",
+    "coverage": "aegir-coverage",
+    "coverage-publish": "aegir-coverage publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/EstevanKlein/minimanon.git"
+  },
+  "author": "HannahSpinka",
+  "license": "ISC",
+  "homepage": "https://github.com/EstevanKlein/minimanon.git"
+}
